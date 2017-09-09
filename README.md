@@ -1,6 +1,6 @@
 # serve ⚡️
 
-A simple binary written in go for serving your current directory as static content over HTTP from the terminal.  Just `go get` and use.
+A simple binary written in go for serving your current directory as static content over HTTP from the terminal.  Just run `go get github.com/integrii/serve` and use.
 
 Free, open source, fast, and simple.
 
