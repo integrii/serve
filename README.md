@@ -5,7 +5,7 @@ A simple binary written in go for serving your current directory as static conte
 Free, open source, fast, and simple.
 
 
-![serve](https://github.com/integrii/serve/raw/master/tutorial.png "Why did a static command line serve this good not exist yet?")
+![serve](https://github.com/integrii/serve/blob/master/tutorial.gif?raw=true "Why did a static command line serve this good not exist yet?")
 
 
 # Installation
