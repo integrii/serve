@@ -48,7 +48,7 @@ func main() {
 	if len(strings.Split(listenAddress, ".")) < 4 {
 		listenAddressClickable = "http://0.0.0.0" + listenAddress
 	} else {
-		listenAddressClickable = listenAddress
+		listenAddressClickable = "http://" + listenAddress
 	}
 
 	// configure the spinner output and start it up
