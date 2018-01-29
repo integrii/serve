@@ -19,7 +19,7 @@ Free, open source, fast, and simple.
 
 - Run `serve`.
 - See results at [http://127.0.0.1:8000](http://127.0.0.1:8000)
-- Hit `Command-C` to stop gracefully
+- Hit `Control-C` to stop the server gracefully
 
 
 # Options
