@@ -28,7 +28,7 @@ func init() {
 	}
 
 	// input flags
-	flag.StringVar(&listenAddress, "l", ":8000", "The address for the server to listen on. Examples: :80, 127.0.0.1:8000")
+	flag.StringVar(&listenAddress, "l", ":9001", "The address for the server to listen on. Examples: :80, 127.0.0.1:8000")
 	flag.StringVar(&path, "p", wd, "The path for the server to serve.")
 	flag.Parse()
 }
@@ -46,7 +46,7 @@ func main() {
 	// formulate the proper clickable listen address for output
 	var listenAddressClickable string
 	if len(strings.Split(listenAddress, ".")) < 4 {
-		listenAddressClickable = "http://0.0.0.0" + listenAddress
+		listenAddressClickable = "http://127.0.0.1" + listenAddress
 	} else {
 		listenAddressClickable = "http://" + listenAddress
 	}
