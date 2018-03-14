@@ -12,7 +12,7 @@ Free, open source, fast, and simple.
 
 - [Have go installed](https://golang.org) _(duh?)_
 - Install with go: `go get github.com/integrii/serve`
-- If your `$PATH` environment variable has `$GO?BIN` in it, then you can now simply use `serve`
+- If your `$PATH` environment variable has `$GOBIN` in it, then you can now simply use `serve`
   - Otherwise, you will need to run `$GOBIN/serve` or if you don't even have `$GOBIN` set, you must run `$GOPATH/bin/serve`
 
 # Usage
